@@ -13,7 +13,7 @@ if __name__ == '__main__':
                 batch=8,
                 workers=32,
                 device='0',
-                optimizer='SGD',  # using SGD 优化器 默认为auto建议大家使用固定的.
+                optimizer='SGD', 
                 resume=True,
                 project='runs/VIS-8',
                 name='VIS-yolo11n-FRNetv3-DWMultABS-9MA-500',
