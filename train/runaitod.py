@@ -13,7 +13,7 @@ if __name__ == '__main__':
                 batch=4,
                 workers=32,
                 device='0',
-                optimizer='SGD',  # using SGD 优化器 默认为auto建议大家使用固定的.
+                optimizer='SGD',
                 resume=True,
                 project='runs/AI-TOD-4',
                 name='AI-TOD-yolo11n-FRNetv3-EMA-500',
